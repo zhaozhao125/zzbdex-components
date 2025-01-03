@@ -1,6 +1,6 @@
 {
-  "name": "zzbdex-components-test",
-  "version": "1.0.4",
+  "name": "zzbdex-components",
+  "version": "1.0.3",
   "private": false,
   "type": "module",
   "scripts": {
@@ -22,7 +22,8 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.es.js",
       "require": "./dist/index.umd.js"
-    }
+    },
+    "./dist/zzbdex-components.css": "./dist/zzbdex-components.css"
   },
   "files": [
     "dist"
@@ -31,24 +32,28 @@
     "element-plus": "^2.2.27"
   },
   "dependencies": {
-    "vue": "^3.5.13",
+    "@tinymce/tinymce-vue": "5.1.1",
     "element-plus": "^2.2.27",
-    "vue-router": "^4.4.5",
-    "@tinymce/tinymce-vue": "5.1.1"
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "^22.9.3",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitejs/plugin-vue-jsx": "^4.1.1",
     "@vue/tsconfig": "^0.7.0",
-    "@rollup/plugin-terser": "^0.4.4",
     "npm-run-all2": "^7.0.1",
+    "postcss-prefix-selector": "^2.1.0",
+    "rollup": "^4.3.0",
+    "sass": "1.56.1",
     "typescript": "~5.6.3",
     "vite": "^6.0.1",
+    "vite-plugin-oneof-css-module": "^0.0.2",
+    "vite-plugin-static-copy": "^2.2.0",
+    "vite-plugin-style-import": "^2.0.0",
     "vite-plugin-vue-devtools": "^7.6.5",
-    "vue-tsc": "^2.1.10",
-    "rollup": "^4.3.0",
-    "sass": "1.56.1"
+    "vue-tsc": "^2.1.10"
   }
 }

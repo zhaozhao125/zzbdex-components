@@ -2,7 +2,8 @@
 import { RouterLink, RouterView } from 'vue-router'
 import {onMounted, ref} from "vue"
 import HelloWorld from './components/HelloWorld.vue'
-import { ZzbdexAmountInput } from '../packages/index.ts'
+// import { ZzbdexAmountInput } from '../dist'
+import { ZzbdexAmountInput, ZzbdexEditor } from '../packages/index.ts'
 
 const v = ref()
 
@@ -12,7 +13,7 @@ onMounted(() => {
 
 <template>
   <header>
-    
+      <ZzbdexEditor/>
       <ZzbdexAmountInput v-model="v" showAppend><div style="width: 38px">元</div></ZzbdexAmountInput>
    
   </header>

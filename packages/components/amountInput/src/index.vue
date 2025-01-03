@@ -15,7 +15,7 @@
     </div>
     <div class="conut-display" v-if="showDigits">
       <div class="arrow">
-        <img src="../assets/images/arrow.jpg" alt="" />
+        <img src="../../../assets/arrow.jpg" alt="" />
       </div>
       {{ showDigits }}
     </div>
@@ -111,7 +111,7 @@ const showDigits = computed(() => {
     .arrow {
       width: 10px;
       height: 6px;
-      top: -11px;
+      top: -6px;
       position: absolute;
 
       img {
