@@ -1,6 +1,6 @@
 {
   "name": "zzbdex-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "type": "module",
   "scripts": {
@@ -30,6 +30,10 @@
   ],
   "peerDependencies": {
     "element-plus": "^2.2.27"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaozhao125/zzbdex-components.git"
   },
   "dependencies": {
     "@tinymce/tinymce-vue": "5.1.1",
